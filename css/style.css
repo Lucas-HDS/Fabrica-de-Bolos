@@ -14,8 +14,13 @@
     background-color: #E77A77;
 }
 
+
+
+/*** CORPO DO SITE ***/
+
 body,html{
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -108,7 +113,6 @@ header h4{
     padding: 0 2%;
     margin: 0 auto;
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
 }
 
@@ -140,4 +144,23 @@ header h4{
     background-position: center;
     background-repeat: no-repeat;
     
+}
+
+
+/*** RESPONSIVO ***/
+
+@media screen and (max-width: 1150px){
+    .descricao-sobre{
+        width: 100%;
+    }
+
+    .sobre-exemplos{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .sobre-exemplos img{
+        margin: 30px auto;
+        display: block;
+    }
 }
