@@ -206,11 +206,14 @@ section#apresentação >  h2{
 #apresentacao .nav_tabs .rd_tab { 
 display:none;
 position: absolute;
+
 }
 
 #apresentacao .nav_tabs .rd_tab:checked ~ label { 
 background-color: #f7ab78;
-color:#fff;}
+color:#fff;
+transition: .5s ease-in-out;
+}
 
 #apresentacao .tab-content{
 border-top: solid 5px #f59656;
@@ -243,7 +246,3 @@ display: block;
     border: 8px solid #f9e094c0;
 }
 
-#apresentacao .tab-content article{
-padding: 10px;
-color: #555;
-}

@@ -9,7 +9,7 @@
     <link rel="shortcut icon"  type="image-x/png" href="Cake-icon.ico" >
     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
 </head>
 <body>
 
@@ -60,7 +60,7 @@
 			<ul>
 				<li>
 					<input type="radio" id="tab1" class="rd_tab" name="tabs" checked>
-					<label for="tab1" class="tab_label">Personalizados</label>
+					<label for="tab1" class="tab_label">Bolos</label>
 					<div class="tab-content">
 						<div class="images-content">
                             <img src="imagens/slides/personalizado1.jpg" alt="">
@@ -71,59 +71,47 @@
                             <img src="imagens/slides/personalizado6.jpg" alt="">
                             <img src="imagens/slides/personalizado7.jpg" alt="">
                             <img src="imagens/slides/personalizado8.jpg" alt="">
+                            <img src="imagens/slides/normal1.jpg" alt="">
+                            <img src="imagens/slides/normal2.jpg" alt="">
+                            <img src="imagens/slides/normal3.jpg" alt="">
+                            <img src="imagens/slides/normal4.jpg" alt="">
                             
                         </div><!--images-content-->
 					</div>
 				</li>
 
-				<li>
-					<input type="radio" name="tabs" class="rd_tab" id="tab3">
-					<label for="tab3" class="tab_label">Normais</label>
-					<div class="tab-content">
-						<div class="images-content2">
-                            <img src="imagens/slides/normal1.jpg" alt="">
-                            <img src="imagens/slides/normal2.jpg" alt="">
-                            <img src="imagens/slides/normal3.jpg" alt="">
-                            <img src="imagens/slides/normal4.jpg" alt="">
-                        </div><!--images-content-->
-					</div>
-				</li>
+				
 				
 			</ul>
 		</nav>
     </div><!--container-->
     </section>
 
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="slick-1.8.1/slick/slick.js"></script>
 
 <script>
 
-    $('.tab-content .images-content ').slick({
+$(' .images-content ').slick({
         centerMode: true,
         slidesToShow:3,
         arrows:false,
-        infinite:true,
-        speed:500,
+        speed:800,
         autoplay: true,
-        autoplaySpeed: 500,
+        autoplaySpeed: 1000,
         pauseOnHover:false,
+
     });
 
-    $('.tab-content .images-content2 ').slick({
-        centerMode: true,
-        slidesToShow:3,
-        arrows:false,
-        infinite:true,
-        speed:500,
-        autoplay: true,
-        autoplaySpeed: 500,
-        pauseOnHover:false,
-    });
+
+
+    
+
+    
 
  
-
-
 </script>
+    
+
 </body>
 </html>
