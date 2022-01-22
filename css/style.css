@@ -108,7 +108,7 @@ header h4{
     
 }
 
-#sobre > .container, #apresentacao > .container{
+#sobre > .container, #apresentacao > .container, #depoimentos > .container{
     max-width: 1200px;
     padding: 0 2%;
     margin: 0 auto;
@@ -246,3 +246,12 @@ display: block;
     border: 8px solid #f9e094c0;
 }
 
+/*** DEPOIMENTOS ***/
+
+section#depoimentos{
+    
+        background-color: #cad5ad9a;
+        min-height: 400px;
+        
+    
+}
