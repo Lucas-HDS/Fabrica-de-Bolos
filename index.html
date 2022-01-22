@@ -23,7 +23,7 @@
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#apresentacao">Apresentação</a></li>
-                <li><a href="">Depoimentos</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
                 <li><a href="">Contato</a></li>
             </ul>
 
@@ -88,13 +88,28 @@
     </section><!--apresentacao-->
 
     <section id="depoimentos">
+        <h2 style="font-size: 50px; font-family: 'Merienda', cursive; text-align: center; padding-top: 50px;">Depoimentos</h2>
         <div class="container">
             <div class="box-depoimento">
+
                 <div class="box-single">
                     <img src="imagens/depoimento1.png" alt="">
-                    <span>Maria Clara</span>
-                    <p>"Melhores bolos que eu já pude experimentar, muito amor e criativade na hora da execução.</p>
+                    <span>Maria Clara</span><br>
+                    <p>"Melhores bolos que eu já pude experimentar, muito amor e criativade na hora da execução."</p>
                 </div><!--box-single-->
+
+                <div class="box-single">
+                    <img src="imagens/depoimento2.jpg" alt="">
+                    <span>Samuel Marques</span><br>
+                    <p>"Desde o primeiro bolo que experimentei, não escolho outro lugar para minhas encomendas"</p>
+                </div><!--box-single-->
+
+                <div class="box-single">
+                    <img src="imagens/depoimento3.jpg" alt="">
+                    <span>Ana Lima</span><br>
+                    <p>"Incrivel!! Não vejo a hora de puder comprar mais bolos, perfeito."</p>
+                </div><!--box-single-->
+
             </div><!--box-depoimento-->
         </div><!--container-->
     </section><!--depoimentos-->
@@ -115,7 +130,17 @@ $(' .images-content ').slick({
 
     });
 
+    $(' .box-depoimento ').slick({
+        centerMode: false,
+        slidesToShow:1,
+        arrows:false,
+        speed:500,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        pauseOnHover:false,
+        dots: true,
 
+    });
 
     
 

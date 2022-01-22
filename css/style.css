@@ -146,25 +146,7 @@ header h4{
     
 }
 
-
-/*** RESPONSIVO ***/
-
-@media screen and (max-width: 1150px){
-    .descricao-sobre{
-        width: 100%;
-    }
-
-    .sobre-exemplos{
-        width: 100%;
-        padding-left: 0px;
-    }
-
-    .sobre-exemplos img{
-        margin: 30px auto;
-        display: block;
-    }
-}
-
+/*** APRESENTAÇÃO ***/
 
 #apresentacao{
     background-color: #f9e094c0;
@@ -236,8 +218,7 @@ display: block;
 }
 
 
-#apresentacao .tab-content .images-content img,
-#apresentacao .tab-content .images-content2 img{
+#apresentacao .tab-content .images-content img{
     width: 300px;
     height: 300px;
     background-repeat: no-repeat;
@@ -249,9 +230,61 @@ display: block;
 /*** DEPOIMENTOS ***/
 
 section#depoimentos{
-    
-        background-color: #cad5ad9a;
-        min-height: 400px;
-        
-    
+    background-color: #cad5ad9a;
+    min-height: 400px; 
 }
+
+.box-depoimento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 350px;
+    margin: 60px auto 0 auto;
+}
+
+.box-single{
+    background-color: rgba(255, 255, 255, 0.514) ;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.box-single img{
+    width: 80px;
+    height: 80px;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+.box-single span{
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 90px;
+    margin-top: -50px;
+    display: block;
+}
+
+.box-single p{
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/*** RESPONSIVO ***/
+
+@media screen and (max-width: 1150px){
+    .descricao-sobre{
+        width: 100%;
+    }
+
+    .sobre-exemplos{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .sobre-exemplos img{
+        margin: 30px auto;
+        display: block;
+    }
+}
+
