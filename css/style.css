@@ -322,6 +322,7 @@ textarea{
     display: block;
     width: 80%;
     margin: 10px auto;
+    padding-top: 10px;
     padding-left: 10px;
     border-radius: 7px;
     border: 0;
