@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fábrica de Bolos</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="shortcut icon"  type="image-x/png" href="Cake-icon.ico" >
     <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
     <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
     
 </head>
 <body>
+
+    <div class="btn-inicio">
+        <a href="#inicio"><i class="fas fa-birthday-cake"></i></a>
+    </div>
 
     <header id="inicio">
         <div class="nomeLoja">
@@ -24,7 +29,7 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#apresentacao">Apresentação</a></li>
                 <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="">Contato</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
 
             <div class="slogan">
@@ -113,6 +118,22 @@
             </div><!--box-depoimento-->
         </div><!--container-->
     </section><!--depoimentos-->
+
+    <section id="contato">
+        <h2 style="font-size: 50px; font-family: 'Merienda', cursive; text-align: center; padding-top: 50px;">Entre em contato</h2>
+        <div class="container">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="hidden" name="accessKey" value="e88cbde4-779c-4610-bce3-6248f7a25188">
+                <input type="hidden" name="redirectTo" value="index.html">
+                <input type="text" name="name" placeholder="Seu nome">
+                <input type="text" name="email" placeholder="Seu Email" />
+                <input type="hidden" name="subject" value="Um novo e-mail do seu site" />
+                <textarea name="message" placeholder="Digite sua mensagem aqui..."></textarea>
+                <input type="text" name="honeypot" style="display:none">
+                <input type="submit" value="Enviar!" />
+            </form>
+        </div><!--container-->
+    </section><!--contato-->
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="slick-1.8.1/slick/slick.js"></script>
