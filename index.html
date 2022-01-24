@@ -57,7 +57,7 @@
     </section><!--sobre-->
 
     <section id="apresentacao">
-        <h2 style="font-size: 50px; font-family: 'Merienda', cursive; text-align: center; padding-top: 50px;">Apresentação dos Bolos</h2>
+        <h2 style="font-size: 50px; font-family: 'Merienda', cursive; text-align: center; padding-top: 50px;">Apresentação</h2>
         <div class="container">
 
         
@@ -148,8 +148,29 @@ $(' .images-content ').slick({
         autoplay: true,
         autoplaySpeed: 1000,
         pauseOnHover:false,
+        responsive: [
+    {
+      breakpoint: 860,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    },
+  ]
 
     });
+
+
 
     $(' .box-depoimento ').slick({
         centerMode: false,
