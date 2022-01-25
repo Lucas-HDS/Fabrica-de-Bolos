@@ -348,24 +348,58 @@ input[type=submit]:hover{
 
 footer{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
     flex-wrap: wrap;
+    background-color: rgba(84, 52, 63, 0.767);
+    color: white;
 }
 
 .empresa{
     width: 33.3%;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
+.empresa p, .endereco p, .caminho-site a{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.empresa h2, .caminho-site h2, .endereco h2{
+    font-size: 30px;
+    font-family: 'Merienda', cursive;
+}
 .caminho-site{
     width: 33.3%;
+    padding-left:50px;
+}
+
+.caminho-site a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.caminho-site a:hover{
+    color: #f59656;
 }
 
 .endereco{
     width: 33.3%;
 }
 
+/*** SUB-FOOTER ***/
+
+.sub-footer{
+    color: white;
+    height: 50px;
+    background-color: rgba(84, 52, 63, 0.829);
+    font-size: 18px;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    line-height: 50px;
+}
 
 
 /*** RESPONSIVO ***/
