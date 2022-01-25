@@ -389,6 +389,10 @@ footer{
     width: 33.3%;
 }
 
+.endereco i{
+    color: #f59656;
+}
+
 /*** SUB-FOOTER ***/
 
 .sub-footer{
@@ -420,6 +424,13 @@ footer{
     }
 }
 
+@media screen and (max-width: 900px){
+    .empresa, .caminho-site, .endereco{
+        width: 50%;
+        padding: 15px 15px;
+    }
+}
+
 @media screen and (max-width: 600px){
 
     .sobre-exemplos img{
@@ -438,6 +449,10 @@ footer{
     #apresentacao .nav_tabs{
         margin: 40px auto;
     
+    }
+
+    .empresa, .caminho-site, .endereco{
+        width: 100%;
     }
 }
 
